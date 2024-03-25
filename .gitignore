@@ -1,2 +1,4 @@
 yolov8Trash
 .venv
+yolov8m-seg.pt
+runs
