@@ -7,7 +7,7 @@ from ultralytics import YOLO
     - TrashNet
     - TACO, otro dataset famoso de basura etiquetada
 """
-model = YOLO('yolov8m-seg.pt')
+model = YOLO('yolov8m-seg.onnx')
 
 #Hacemos inferencia sobre la imagen de prueba y con guardado, que crea una carpeta runs
-prediction = model.predict("prueba.jpg", imgsz=640, show=False, save=True)
+prediction = model.predict("Pepsi.png", imgsz=416, show=False,save=True)
