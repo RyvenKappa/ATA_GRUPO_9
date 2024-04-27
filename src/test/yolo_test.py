@@ -10,4 +10,4 @@ from ultralytics import YOLO
 model = YOLO('yolov8m-seg.onnx')
 
 #Hacemos inferencia sobre la imagen de prueba y con guardado, que crea una carpeta runs
-prediction = model.predict("Pepsi.png", imgsz=416, show=False,save=True)
+prediction = model.predict("parque.jpeg",imgsz=416, show=False,save=True)
