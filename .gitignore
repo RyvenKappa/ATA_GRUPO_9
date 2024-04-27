@@ -4,3 +4,4 @@ yolov8m-seg.pt
 yolov8m-seg.onnx
 runs
 *.mov
+dataset
